@@ -1,0 +1,224 @@
+.smokymobileview2{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .smokymobileview2{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .smokymobileview2-up{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       
+    } 
+    .smokymobileview2-up-lineimage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        position: absolute;
+        top: 0px;
+    }
+    .smokymobileview2-up-lineimg{
+        display: flex;
+        width: 0.5%;
+        height: 13vh;
+    }
+    .smokymobileview2-up-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        padding-top: 9vh;
+    }
+    .smokymobileview2-up-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 6.2vh;
+        
+    }
+    .smokymobileview2-up-bottom-sprial{
+        display: flex;
+        justify-content: flex-end;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    .smokymobileview2-up-bottom-sprial-img{
+        display: flex;
+        width: 30%;
+    }
+    .smokymobileview2-up-bottom-color{
+        position:absolute;
+        background-color: rgba(77, 66, 57, 0.9);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        top: 0px;
+        
+
+    }
+    .smokymobileview2-up-bottom-design{
+        width: 40%;
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: -1;
+       
+    }
+    .smokymobileview2-up-bottom-design-img{
+        width: 100%;
+        display: flex;
+       
+    }
+    .smokymobileview2-up-bottom-design1{
+        width: 46%;
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+       
+    }
+    .smokymobileview2-up-bottom-design1-img{
+        width: 100%;
+        display: flex;
+       
+    }
+    .smokymobileview2-up-bottom-items1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4vh;
+    }
+    .smokymobileview2-up-bottom-items1-text1{
+        font-family: Rose-Velt-Personal-Use-Only;
+        font-size: 10vw;
+        color: #CAB497;
+    }
+    .smokymobileview2-up-bottom-items2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    .smokymobileview2-up-bottom-items3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.2vh;
+    }
+    .smokymobileview2-up-bottom-items4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.2vh;
+    }
+    .smokymobileview2-up-bottom-items5{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.2vh;
+    }
+    .smokymobileview2-up-bottom-items2-text2{
+        display: flex;
+        font-family:Antonio-Light;
+        color: #CAB497;
+    }
+    .smokymobileview2-up-bottom-items2-text3{
+        display: flex;
+        font-family: Roboto-Regular;
+        font-size: 3.1vw;
+        color: #CAB497;
+    }
+    .smokymobileview2-down{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .smokymobileview2-down-spiraldown{
+        display: flex;
+        justify-content: flex-end;
+        object-fit: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 7;
+    }
+    .smokymobileview2-down-spiraldown-img{
+        display: flex;
+        width: 30%;
+    }
+    .smokymobileview2-down-cock{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        
+       
+    }
+    .smokymobileview2-down-cock{
+        
+        width: 74%;
+        display: flex;
+        right: 0px;
+        position: absolute;
+    }
+    .smokymobileview2-down-lineimage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+    }
+    .smokymobileview2-down-lineimg{
+        width: 100%;
+    }
+    .smokymobileview2-down-image{
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+    }
+    .smokymobileview2-down-img{
+        display: flex;
+        width: 100%;
+    }    
+}

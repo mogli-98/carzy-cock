@@ -1,0 +1,93 @@
+.raremobileview1{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+  .raremobileview1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 1.5vh;
+}  
+.raremobileview1-section1{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+ } 
+ .raremobileview1-logo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+ }
+ .raremobileview1-logo-img{
+  display: flex;
+  width: 37%;
+ }
+ .raremobileview1-top{
+  width: 100%;
+  display: flex;
+  
+ }
+ .raremobileview1-top-image{
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+ }
+ .raremobileview1-top-img{
+  display: flex;
+  width: 100%;
+ }
+ .raremobileview1-bottom{
+  width: 100%;
+  padding-top: 10vh;
+  background-color: black;
+ }
+ .raremobileview1-section2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+ }
+ .raremobileview1-section2-top{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+ }
+ .raremobileview1-section2-top-text{
+  display: flex;
+  font-family:Antonio-Light ;
+  color: #CAB497;
+  text-transform: uppercase;
+ }
+ .raremobileview1-section2-top-text1{
+  display: flex;
+  font-family:Antonio-Light ;
+  color: #CAB497;
+  font-size: 2.8vw;
+  text-transform: uppercase;
+ }
+ .raremobileview1-section2-bottom{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+ }
+
+
+}

@@ -1,0 +1,57 @@
+.home{
+    position: relative;
+     width: 100%;       
+   
+    box-sizing: unset !important;
+    
+}
+.axies{
+    position:fixed;
+    
+    animation: mymove 300s infinite;
+    animation-timing-function: linear;
+}
+@keyframes mymove {
+    
+    from{
+        top: 0px;
+    }
+    to{
+        top: -4200px;
+    }}
+.background-blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.restrictHeight {
+    height: 100vh;
+}
+.noscroll {
+    overflow: hidden;
+}
+.remove-scroll {
+    
+    overflow: hidden;
+}
+.Home-homeintro4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 480px) {
+
+
+    .big-cock{
+    box-sizing: unset !important;
+    height: 180px;
+    width: 250px;
+    top: 260px;
+    left: 60px;
+}
+.home2ndimg{
+    width: 250px;
+    height: 127px;
+    top: 556px;
+    object-fit: cover;
+    position: absolute;
+}
+}

@@ -1,0 +1,178 @@
+.wiskymobileview1{
+    display: none;
+}
+@media only screen and (max-width: 480px) {
+ 
+    .wiskymobileview1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview1-section1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3.5vh;
+        background-color: black;
+        position: relative;
+    }
+    .wiskymobileview1-section1-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        bottom: 0px;
+        position: absolute;
+        line-height: 6.9vh;
+    }
+    .wiskymobileview1-section1-text{
+            color: #EAD9D0;
+            font-family:Antonio-Light ;
+            font-size: 13vw;
+    }
+    .wiskymobileview1-section1-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview1-section1-img{
+        display: flex;
+        width: 100%;
+    }
+    .wiskymobileview1-section2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        padding-top: 5vh;
+        padding-bottom: 7vh;
+    }
+    .wiskymobileview1-section2-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview1-section2-text{
+        font-family:Antonio-Light ;
+        color: #EAE1DA;
+        letter-spacing: 4px;
+        font-size: 4vw;
+        background: linear-gradient(#070707, #020202) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+            linear-gradient(90deg, #7f5e26 0%, #feea8f 50%, #7f5e26 100%);
+            border-radius: 0px;
+            padding: 12px 34px 12px 34px;
+            box-sizing: content-box;
+    }
+    .wiskymobileview1-section3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .wiskymobileview1-section3-logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+    }
+    .wiskymobileview1-section3-logo-img{
+        display: flex;
+        width: 40%;
+    }
+    .wiskymobileview1-section3-top{
+        width: 100%;
+        background-color: black;
+        padding-top: 9vh;
+    }
+    .wiskymobileview1-section3-bottom{
+        display: flex;
+        width: 100%;
+    }
+    .wiskymobileview1-section3-bottom-image{
+        width: 100%;
+        object-fit: cover;
+    }
+    .wiskymobileview1-section3-bottom-img{
+        width: 100%;
+    }
+    .wiskymobileview1-section4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0E9E4;
+    }
+    .wiskymobileview1-section4-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .wiskymobileview1-section4-top-text{
+        display: flex;
+        font-family: Antonio-Light;
+        font-size: 6vw;
+        color: black;
+    }
+    .wiskymobileview1-section5{
+        width: 100%;
+        display: flex;
+        background-color: #F0E9E4;
+        position: relative;
+    }
+    .wiskymobileview1-section5-designline{
+        display: flex;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+    }
+    .wiskymobileview1-section5-designline-img{
+        width: 100%;
+        display: flex;
+    }
+    .wiskymobileview1-section5-image{
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        
+    }
+   
+    .wiskymobileview1-section5-img{
+        display: flex;
+        width: 42%;
+    }
+    .wiskymobileview1-section6{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #EAE5E1;
+            padding-bottom: 3vh;
+            padding-top: 2vh;
+    }
+    .wiskymobileview1-section6-items{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+    }
+    .wiskymobileview1-section6-items-text{
+            color: #351804;
+            font-family: Rose-Velt-Personal-Use-Only;
+            font-size: 9vw;
+    }
+}

@@ -1,0 +1,401 @@
+.bgfooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .bgfooter-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+    .bgfooter-wrapper-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0E9E4;
+        
+    }
+    .bgfooter-wrapper-top-up{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+    }
+    .bgfooter-wrapper-top-up-cock{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+    }
+    .bgfooter-wrapper-top-up-cock-img{
+        display: flex;
+        width: 95%;
+    }
+    .bgfooter-wrapper-top-item1{
+        width: 100%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        
+       
+    }
+    .bgfooter-wrapper-top-item1-bgimage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .bgfooter-wrapper-top-item1-bgimg{
+        display: flex;
+        width: 100%;
+    }
+ .bgfooter-wrapper-top-item2{
+    padding-top: 60vh;
+    
+ }
+   
+ .bgfooter-wrapper-top-down{
+    width: 100%;
+    background-color: black;
+    padding-top: 20vh;
+    position: relative;
+ } 
+ .bgfooter-wrapper-top-down-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0px;
+ }  
+.bgfooter-wrapper-top-down-logo-img{
+    display: flex;
+    width: 16.5%;
+}
+    
+
+    
+    .bgfooter-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:black
+    }
+    .bgfooter-bottom1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6vh;
+        padding-bottom: 2vh;
+        
+        
+    }
+    
+        
+        
+    .bgfooter-bottom1-fb-btn{
+        display: flex;
+        object-fit: cover;
+        width: 3.2%;
+        position: relative;
+    }
+    
+    .bgfooter-bottom1-fb{
+        display: flex;
+       
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+        
+    }
+    .bgfooter-bottom1-fbhover:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .bgfooter-bottom1-fbhover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+        transition: .5s ease;
+         
+    }
+    .bgfooter-bottom1-insta-btn{
+        display: flex;
+        object-fit: cover;
+        margin-left: 5vw;
+        width: 3.2%;
+        position: relative;
+    
+    }
+    .bgfooter-bottom1-insta{
+        display: flex;
+        width: 100%;
+       
+    }
+    .bgfooter-bottom1-instahover{
+        display: flex;
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+        transition: .5s ease;
+    }
+    .bgfooter-bottom1-instahover:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    .bgfooter-bottom2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8vh;
+    }
+    .bgfooter-bottom2-text1{
+    font-family: Antonio-Light;
+    color: #C2B59B;
+    letter-spacing: 4px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1vw;
+    }
+    .bgfooter-bottom3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6vh;
+    }
+    .bgfooter-bottom3-text2{
+        font-family: Rose-Velt-Personal-Use-Only;
+        font-size: 1.5vw;
+        color: #C2B59B;
+       
+    }
+    .bgfooter-bottom4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 2vh;
+    }
+    .bgfooter-bottom4-text3{
+        color: #C2B59B;
+        font-family: CormorantGaramond-SemiBold;
+        font-size: 1.2vw;
+    }
+    @media screen and (max-width: 480px) {
+ 
+       .bgfooter-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+    }
+     .bgfooter-wrapper-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0E9E4;
+        
+    }
+    .bgfooter-wrapper-top-up{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        position: relative;
+    }
+    .bgfooter-wrapper-top-up-cock{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+    }
+    .bgfooter-wrapper-top-up-cock-img{
+        display: flex;
+        width: 80%;
+    }
+    .bgfooter-wrapper-top-item1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .bgfooter-wrapper-top-item1-bgimage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .bgfooter-wrapper-top-item1-bgimg{
+        display: flex;
+        width: 100%;
+    }
+ .bgfooter-wrapper-top-item2{
+    padding-top: 12vh;
+    
+ }
+   
+ .bgfooter-wrapper-top-down{
+    width: 100%;
+    background-color: black;
+    padding-top: 6vh;
+    position: relative;
+ } 
+ .bgfooter-wrapper-top-down-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0px;
+ }  
+.bgfooter-wrapper-top-down-logo-img{
+    display: flex;
+    width: 23%;
+}
+       
+       
+        
+        .bgfooter-bottom{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color:black
+        }
+        .bgfooter-bottom1{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 3vh;
+            padding-bottom: 2vh;
+            
+            
+        }
+        
+            
+            
+        .bgfooter-bottom1-fb-btn{
+            display: flex;
+            object-fit: cover;
+            width: 7%;
+            position: relative;
+        }
+        
+        .bgfooter-bottom1-fb{
+            display: flex;
+           
+            align-items: center;
+            justify-content: center;
+            
+            width: 100%;
+            
+        }
+        .bgfooter-bottom1-fbhover:hover{
+            opacity: 1;
+        }
+        .bgfooter-bottom1-fbhover{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            position: absolute;
+            opacity: 0;
+            transition: .5s ease;
+             
+        }
+        .bgfooter-bottom1-insta-btn{
+            display: flex;
+            object-fit: cover;
+            margin-left: 10vw;
+            width: 7%;
+            position: relative;
+        
+        }
+        .bgfooter-bottom1-insta{
+            display: flex;
+            width: 100%;
+           
+        }
+        .bgfooter-bottom1-instahover{
+            display: flex;
+            width: 100%;
+            position: absolute;
+            opacity: 0;
+            transition: .5s ease;
+        }
+        .bgfooter-bottom1-instahover:hover{
+            opacity: 1;
+        }
+        .bgfooter-bottom2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2vh;
+            line-height: 40px;
+        }
+        .bgfooter-bottom2-text1{
+        font-family: Antonio-Light;
+        color: white;
+        letter-spacing: 3px;
+        
+        font-size: 3.5vw;
+            
+        }
+        .bgfooter-bottom3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4vh;
+        }
+        .bgfooter-bottom3-text2{
+            font-family: Rose-Velt-Personal-Use-Only;
+            font-size: 4vw;
+            color: #d2783b;
+           
+        }
+        .bgfooter-bottom4{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 3vh;
+            margin-top: 1.5vh;
+        }
+        .bgfooter-bottom4-text3{
+            color: white;
+            font-family: CormorantGaramond-SemiBold;
+            font-size: 2.1vw;
+        }
+}

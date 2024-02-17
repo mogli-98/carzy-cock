@@ -1,0 +1,107 @@
+.raresection2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8vh;
+    background-color: #ebe6e2;
+    
+  
+}
+.raresection2-topwrapper{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.raresection2-topwrapper-image{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    background-image: url('../../assets/image/rare/section2img.jpg');
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.raresection2-topwrapper-img{
+    width: 100%;
+    
+    visibility: hidden;
+}
+.raresection2-topwrapper-image1{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+
+}
+.raresection2-topwrapper-img1{
+    width: 100%;
+
+}
+.raresection2-topwrapper-image2{
+    width: 80%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+   justify-content: center;
+    
+
+}
+.raresection2-topwrapper-img2{
+    width: 80%;
+
+} 
+.raresection2-bottomwrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebe6e2;
+} 
+.raresection2-bottomwrapper-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.raresection2-bottomwrapper-items-text{
+    font-family: Antonio-Light;
+    font-size: 4.5vw;
+}
+.raresection2-bottomwrapper-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.raresection2-bottomwrapper-item-imgwarp1{
+   
+    object-fit: cover;
+}
+.raresection2-bottomwrapper-item-imgwarp2{
+   
+   
+    object-fit: cover;
+}
+.raresection2-bottomwrapper-items-img{
+    width: 100%;
+}
+.raresection2-bottomwrapper-items-text1{
+    font-family: Antonio-Light;
+    font-size: 2vw;
+}
+.raresection2-bottomwrapper-items-text2{
+    font-family: Rose-Velt-Personal-Use-Only;
+    font-size: 2.4vw;
+}
+@media screen and (max-width: 480px){
+    .raresection2{
+       
+        display: none;
+        
+    }
+}    

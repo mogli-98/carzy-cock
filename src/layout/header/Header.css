@@ -1,0 +1,265 @@
+.megamenu1 {
+  background: none;
+  border: none;
+  width: 500px;
+}
+
+.navbar-open {
+  overflow: hidden;
+}
+
+.dropp {
+  list-style: none;
+  color: #C9B598;
+  left: -12px;
+  font-family: Antonio-Light;
+}
+
+.dropp li {
+  text-align: left;
+}
+
+.dropp li:hover {
+  text-align: left;
+  font-weight: 700;
+}
+
+.megamenu2 {
+  position: static;
+  line-height: 50px;
+}
+
+.dropp{
+  animation-name: fadeDown;
+  animation-duration: 2s;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0.5;
+    transform: translateY(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.navloo-opicity {
+  opacity: 0.2;
+}
+
+.megamenu2 .dropdown-menu {
+  background: none;
+  border: none;
+  /* width: 99%; */
+}
+
+.megamenu3 {
+  position: static;
+}
+
+.megamenu3 .dropdown-menu {
+  background: none;
+  border: none;
+  /* width: 100%; */
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.navbar-stop {
+  overflow: hidden;
+}
+
+.small-nav {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+  z-index: 5;
+  opacity: 90%;
+  font-family: Antonio-Light;
+  overflow: hidden !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: justify !important;
+}
+
+.header-img {
+  left: -10px;
+  position: relative;
+  top: -200px;
+  float: left;
+  height: 25vh;
+  width: 27vw;
+}
+
+.smallloGo {
+  margin-top: -70px;
+  position: relative;
+  z-index: 2000000 !important;
+  float: right;
+  right: 98px;
+}
+
+.small-nav h1 {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.small-nav a {
+  color: #AF6C1C !important;
+  padding-top: 0px;
+}
+
+.lastnavlogo {
+  margin-top: 80px;
+  position: relative;
+  z-index: 2;
+  margin-right: 30px;
+}
+
+.header-hr {
+  position: relative;
+  left: 11vh;
+  color: rgb(175, 108, 28);
+  width: 50%;
+  border: -0.5vh solid rgb(175, 108, 28);
+  z-index: 999 !important;
+  opacity: 100%;
+  background-color: rgb(175, 108, 28);
+}
+
+.small-nav span {
+  color: #AF6C1C;
+  top: 30px;
+  position: relative;
+}
+
+.heeaderr-bottom1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8vh;
+}
+
+.heeaderr-bottom1-item {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.headitems {
+  font-size: 4vw;
+}
+
+@font-face {
+  font-family: 'Antonio-Light';
+  src: local("Antonio-Light"),
+    url("../../font/Antonio-Light.ttf") format("truetype");
+}
+
+.navbar-expand-lg .navbar-nav {
+  width: 100% !;
+}
+
+.navvlink {
+  font-family: Antonio-Light;
+  margin-top: -20px;
+  margin-left: 5px;
+  padding-left: 34px;
+  font-size: 18px;
+}
+
+.navvlink:hover {
+  font-family: Antonio-Light;
+  margin-top: -20px;
+  margin-left: 5px;
+  padding-left: 34px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+  margin-left: 0px;
+}
+
+.loGo {
+  margin-top: 85px;
+  position: relative;
+  z-index: 200000 !important;
+  float: right;
+  right: 28px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .lastnavlogo {
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
+    /* margin-right: 30px; */
+    margin-top: -70px;
+    float: right;
+    right: 98px;
+  }
+
+  .navloogo2 {
+    margin-top: -5px !important;
+    opacity: 100% !important;
+    z-index: 200000 !important;
+  }
+
+  .navloogo {
+    opacity: 0.2;
+    margin-top: -5px !important;
+
+  }
+
+  .buttonforopen {
+    position: absolute;
+    right: 1vh;
+    top: 5vh;
+  }
+
+  .buttonforclose {
+    position: absolute;
+    right: 1vh;
+    top: 5vh;
+
+    z-index: 200 !important;
+  }
+
+  .loGo {
+    position: absolute;
+    right: 15vw;
+    top: -65px;
+    z-index: 2000000 !important;
+    height: 10vh;
+  }
+
+  .loGo2 {
+    position: absolute;
+    right: 15vw;
+    top: 20px;
+    height: 10vh;
+    z-index: 200 !important;
+  }
+
+}

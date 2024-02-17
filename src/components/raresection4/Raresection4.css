@@ -1,0 +1,198 @@
+.raresection4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.raresection4-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+.raresection4-top-title{
+    font-family: Rose-Velt-Personal-Use-Only;
+    font-size: 5vw;
+    
+    
+}
+.raresection4-middle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.raresection4-middle-linetop{
+    width: 50%;
+    object-fit: cover;
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+.raresection4-middle-line-imgtop{
+    width: 100%;
+}
+.raresection4-middle-linemiddle{
+    width: 50%;
+    object-fit: cover;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.raresection4-middle-line-imgmiddle{
+    width: 100%;
+}
+.raresection4-middle-linebottom{
+    width: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    
+}
+.raresection4-middle-line-imgbottom{
+    width: 100%;
+}
+.raresection4-middle-wrap{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.raresection4-middle-wrap-left{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.raresection4-middle-wrap-left-1{
+    
+    display: flex;
+    margin-bottom: 1vh;
+    align-items: center;
+    justify-content: center;
+   
+}
+.raresection4-middle-wrap-left-title-text1{
+    font-family: Rose-Velt-Personal-Use-Only;
+    font-size: 2.8vw;
+}
+.raresection4-middle-wrap-left-2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+   
+}
+.raresection4-middle-wrap-left-title-text2{
+    font-family: CormorantGaramond-MediumItalic;
+    font-size: 1.3vw;
+}
+.raresection4-middle-wrap-left-3{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.raresection4-middle-wrap-righttop{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.raresection4-middle-wrap-right-image1{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+.raresection4-middle-wrap-right-img1{
+    width: 100%;
+}
+
+.raresection4-middle-wrap-rightbottom{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.raresection4-middle-wrap-right-image2{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.raresection4-middle-wrap-right-img2{
+    width: 100%;
+}
+.raresection4-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.raresection4-button1{
+    background: linear-gradient(#EAE5E1, #EAE5E1) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+        linear-gradient(90deg, #7f5d26 0%, #ffd87f 47%, #d3a62a 80%, #7f5d26 100%);
+        letter-spacing: 10px;
+        padding: 14px 40px 14px 40px;
+        box-sizing: border-box;
+        font-family: Antonio-Light;
+        font-size: 1.9vw;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: absolute;
+}
+.raresection4-button2{
+    background: linear-gradient(#EAE5E1, #EAE5E1) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+        linear-gradient(90deg, #7f5d26 0%, #ffd87f 47%, #d3a62a 80%, #7f5d26 100%);
+        letter-spacing: 10px;
+        padding: 14px 40px 14px 40px;
+        box-sizing: border-box;
+        font-family: Antonio-Light;
+        font-size: 1.9vw;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        position: absolute;
+}
+.raresection4-button1-cover{
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 33.5px 109px 33.5px 109px;
+    object-fit: cover;
+   
+    margin-top: 8vh;
+    position: relative;
+   
+
+}
+@media screen and (max-width: 480px){
+    .raresection4{
+       
+        display: none;
+        
+    }
+}

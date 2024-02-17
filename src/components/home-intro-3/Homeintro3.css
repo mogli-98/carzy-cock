@@ -1,0 +1,118 @@
+.homeintro3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    padding-top: 5vh;
+}
+.homeintro3-top-image{
+    width: 100%;
+    object-fit: cover;
+}
+.homeintro3-img{
+    width: 100%;
+    
+}
+  .homeintro3-bottom-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAE5E1;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4.5vh;
+    padding-top: 2vh;
+  }  
+.homeintro3-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAE5E1;
+    
+    
+}
+.homeintro3-middle-wrap-text{
+    z-index: 1;
+    font-size: 5.5vw;
+    font-family: Rose-Velt-Personal-Use-Only ;
+    color: #382B2A;
+}
+.homeintro-bg{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+.homeintro-bg-image{
+    margin-top: 4vh;
+    margin-left: 1vw;
+    width: 28%;
+    display: flex;
+}
+@media screen and (max-width: 480px) {
+    .homeintro3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: relative;
+        padding-top:0vh;
+    }
+    .homeintro3-top-image{
+        display: none;
+        width: 100%;
+        object-fit: cover;
+    }
+    .homeintro3-img{
+        width: 100%;
+        
+    }
+      .homeintro3-bottom-wrap{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #EAE5E1;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4.5vh;
+        padding-top: 2vh;
+      }  
+    .homeintro3-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #EAE5E1;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        
+        
+    }
+    .homeintro3-middle-wrap-text{
+        z-index: 1;
+        font-size: 10vw;
+        font-family: Rose-Velt-Personal-Use-Only ;
+    }
+    .homeintro-bg{
+        width: 100%;
+        object-fit: cover;
+        display: none;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+    }
+    .homeintro-bg-image{
+        margin-top: 4vh;
+        margin-left: 1vw;
+        width: 28%;
+        display: flex;
+    }
+}

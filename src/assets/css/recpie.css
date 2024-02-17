@@ -1,0 +1,381 @@
+@font-face {
+  font-family: 'Rose Velt';
+  src: local("Rose Velt"),
+    url("../../font/Rose\ Velt\ Personal\ Use\ Only.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'CormorantGaramond-Medium';
+  src: local("CormorantGaramond-Mediumt"),
+    url("../../font/CormorantGaramond-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Antiono-Light';
+  src: local("Antiono-Light"),
+    url("../../font/Antonio-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Antiono-Bold';
+  src: local("Antiono-Bold"),
+    url("../../font/Antonio-Bold.ttf") format("truetype");
+}
+
+.recipebg {
+  background-image: url("../bgcocktailmain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.Recipe-heading-top {
+  font-family: Rose Velt;
+  font-size: 5vw;
+  text-align: center !important;
+  font-weight: 500;
+  top: 5vh;
+  letter-spacing: 3px;
+
+  position: relative;
+}
+#title1 {
+  font-size: 5vw;
+  font-weight: 500;
+  top: 5vh;
+  border-bottom: 3px solid #cb753a;
+  
+  padding-bottom: 2px;
+  font-family: Rose Velt;
+
+  width: 50%;
+}
+.Recipe-heading-top1 {
+  font-family: Antiono-Light;
+  color: #cb753a;
+  font-size: 6vw;
+  text-align: center !important;
+  font-weight: 500;
+  border-bottom: 3px solid #cb753a;
+  width: 38%;
+  padding-bottom: 5px;
+
+
+}
+.recipetable-imgg{
+ 
+  height: 15vh;
+  margin-top: -9vh;
+ float:right;
+  position: absolute;
+  right: 0vh;
+}
+.recipe-top-logo {
+  float: right;
+  height: 25vh;
+  top: -20vh;
+  right: 8vw;
+  position: relative;
+  z-index: 2;
+}
+
+.Recipe-img1 {
+  position: relative;
+  top: -30vh;
+  width: 100%;
+}
+.recipe-line-top {
+  position: absolute;
+  width: 25%;
+  float: right;
+  right: 0vh;
+  top: 100vh;
+  padding-right: -40vh;
+  z-index: 2;
+}
+.recipe-middle-loGo{
+    height: 50vh;
+    position: relative;
+    top: 118px;
+    width: 50%;
+    bottom: 2px;
+    align-items: center;
+    z-index: 5 !important;
+  }
+  .recipe-middle-cock{
+    height: 50vh;
+    position: relative;
+    top: -89px;
+    bottom: 2px;
+    color: #111;
+    }
+    .recipe-middle-text{
+      font-family: Antiono-Light;
+      position: relative;
+      top: 66px;
+      color: #C2B59B; 
+      }
+.recipe-footprint{
+  position: relative;
+  top:-5vh;
+  width: 50vh;
+}
+.Recipe-heading-tab {
+  padding-top: 6vh;
+  font-size: 7vw;
+  font-family: Rose Velt;
+  position: relative;
+}
+
+.Recipe-heading1-tab {
+  padding-top: 2vh;
+  font-size: 7vw;
+  font-family: Rose Velt;
+  color: #b16d1d;
+  position: relative;
+}
+
+.Recipe-img-tab {
+  width: 90vw;
+  position: relative;
+  top: 5vh
+}
+
+.section2-img {
+  position: relative;
+  top: 14vh;
+  width: 80vw;
+}
+
+.top-section {
+  height: 50vh;
+}
+
+.section2-recipe {
+  height: 66vh;
+}
+
+.section2-recipe h1 {
+  position: relative;
+  top: 20vh;
+  font-family: Antiono-Light;
+  color: #e9c6a8;
+  line-height: 5vh;
+  font-size: vh;
+}
+
+.section2-img2 {
+  position: relative;
+  height: 15vh;
+  top: 15vh
+}
+
+.section3-img {
+  position: relative;
+  top: -4vh;
+  height: 10vh;
+  left: 15vh;
+}
+
+.section3-img2 {
+  -ms-transform: rotate(50deg);
+  /* IE 9 */
+  transform: rotate(200deg);
+  height: 10vh;
+  position: relative;
+  left: 13vh;
+  top: -1.9vh;
+  opacity: 0.5;
+}
+
+.section3-img3 {
+  -ms-transform: rotate(20deg);
+  /* IE 9 */
+  transform: rotate(-35deg);
+  height: 10vh;
+  position: relative;
+  right: -8vh;
+  top: 3vh;
+  opacity: 0.5;
+}
+
+.section-03-text {
+  color: #f1d0aa;
+  /* position: relative;
+  left: 10vw; */
+  padding-left: 10vw;
+  font-family: CormorantGaramond-Medium;
+}
+
+.section-03-text hr {
+  color: #f1d0aa;
+  position: relative;
+  left: -2vh;
+}
+
+.section-03-text h5 {
+  color: #f1d0aa;
+  position: relative;
+  top: 1.4vh;
+}
+
+.section-03-text p {
+  color: #f1d0aa;
+  position: relative;
+  top: -1.4vh;
+
+}
+
+.spannn {
+  color: #f1d0aa;
+  position: relative;
+  top: 0.vh;
+  bottom: -2.2vh;
+
+}
+
+.spannn1 {
+  color: #f1d0aa;
+  position: relative;
+  top: 1.7vh;
+
+
+}
+
+.spannn2 {
+  position: relative;
+  top: -3.5vh;
+}
+
+.section-03-img4 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 50vw;
+  position: relative;
+  top: 5vh;
+}
+
+.section-03-img5 {
+  height: 10vh;
+  position: relative;
+  top: 6.4vh;
+  float: right;
+}
+
+.section-04 {
+  background-image: url("../image/cocktails/section1.svg");
+  background-repeat: no-repeat;
+  background-size: 100vh;
+}
+
+.explore1 {
+  position: relative;
+
+  color: #454647;
+  font-size: 55px;
+  font-weight: 400;
+  font-family: Antonio-Bold;
+  -webkit-text-stroke: 3px #C2B59B;
+}
+
+.section-04-img1 {
+  position: relative;
+  top: 10vh;
+  width: 90vw;
+  opacity: 100%;
+
+}
+
+.section-04-text {
+  position: relative;
+  font-family: Rose Velt;
+  top: -17vh;
+
+}
+
+.section-04-text h6 {
+  font-size: 3vh;
+  position: relative;
+  top: -1vh;
+}
+
+.section-04-text h3 {
+  font-size: 4.5vh;
+  position: relative;
+  top: -3vh;
+}
+
+.section-04-text span {
+  font-size: 2vh;
+  position: relative;
+  top: -2vh;
+
+}
+
+.section-04-text hr {
+  width: 60%;
+  position: relative;
+  top: -0.7vh;
+  color: #b16d1d;
+  height: 2vh;
+  ;
+}
+
+.section-04-img2 {
+  position: relative;
+  left: -10vh;
+  height: 20vh;
+  top: -18vh;
+
+}
+
+.section-04-img3 {
+  position: relative;
+  left: -22vh;
+  width: 25vw;
+  top: -8vh;
+}
+
+.section-04-img4 {
+  position: relative;
+  height: 12vh;
+  float: right;
+  right: 2vh;
+  top: -5vh;
+}
+
+.FLORAL {
+  /* position: relative;
+  left: 6.2vh; */
+  padding-left: 13vh
+}
+
+.EDEN {
+  position: relative;
+  right: 14vh;
+  top: -9vh !important;
+}
+
+.section-04-text2 {
+  position: relative;
+  top: -15vh;
+}
+
+.FLORAL-hr {
+  position: relative;
+  left: 6vh;
+}
+
+.recpie-tablebox-odd {
+  position: relative;
+  top: 2.5vh;
+  font-weight: 600;
+}
+.recpie-tablebox-even {
+  position: relative;
+  top: -2vh;
+}
+.recipe-tablebox4 span{
+  position: relative;
+  top: -1vh;
+}

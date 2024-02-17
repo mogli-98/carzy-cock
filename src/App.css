@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Antonio-Bold ;
+    src: url(/src/font/Antonio-Bold.ttf);
+}
+@font-face {
+    font-family: Antonio-Light ;
+    src: url(/src/font/Antonio-Light.ttf);
+}
+@font-face {
+    font-family: Antonio-Regular ;
+    src: url(/src/font/Antonio-Regular.ttf);
+}
+@font-face {
+    font-family: CormorantGaramond-Bold ;
+    src: url(/src/font/CormorantGaramond-Bold.ttf);
+}
+@font-face {
+    font-family: CormorantGaramond-BoldItalic ;
+    src: url(/src/font/CormorantGaramond-BoldItalic.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-Italic ;
+    src: url(/src/font/CormorantGaramond-Italic.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-Light ;
+    src: url(/src/font/CormorantGaramond-Light.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-LightItalic;
+    src: url(/src/font/CormorantGaramond-LightItalic.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-Medium;
+    src: url(/src/font/CormorantGaramond-Medium.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-MediumItalic;
+    src: url(/src/font/CormorantGaramond-MediumItalic.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-Regular;
+    src: url(/src/font/CormorantGaramond-Regular.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-SemiBold;
+    src: url(/src/font/CormorantGaramond-SemiBold.ttf)
+}
+@font-face {
+    font-family: CormorantGaramond-SemiBoldItalic;
+    src: url(/src/font/CormorantGaramond-SemiBoldItalic.ttf)
+}
+@font-face {
+    font-family: GEO706M;
+    src: url(/src/font/GEO706M.TTF)
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(/src/font/Roboto-Light.ttf)
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/src/font/Roboto-Regular.ttf)
+}
+
+
+
+
+
+
+@font-face {
+    font-family: Rose-Velt-Personal-Use-Only;
+    src: url(/src/font/Rose-Velt-Personal-Use-Only.ttf);
+}
+/*.background-blur{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+} 
+.scroll-lock{
+    height: 100vh;
+    overflow: hidden;
+}
+*/

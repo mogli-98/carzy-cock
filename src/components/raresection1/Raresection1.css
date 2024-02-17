@@ -1,0 +1,474 @@
+.raresection1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    
+   
+   
+}
+.raresection1-wrappers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+}
+
+.raresection1-top-prallex{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.raresection1-top-prallex-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+
+}
+.raresection1-top-prallex-img{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: -11vh;
+    z-index: -1;
+}
+
+.raresection1-bottom{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.raresection1-bottom-left-bluecolor{
+    width: 100%;
+   height: 100%;
+   z-index: 0;
+    background-color: rgba(83, 34, 29, 0.9);
+    position: absolute;
+}
+.raresection1-bottom-left{
+    width: 50%;
+    position: relative;
+    
+}
+.raresection1-bottom-left-img{
+    width: 100%;
+}
+.raresection1-bottom-right{
+    width: 50%;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+   
+}
+.raresection1-bottom-right-bluecolor{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+     background-color: rgba(83, 34, 29, 0.9);
+     position: absolute;
+}
+.raresection1-bottom-right-textwrapper{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    z-index: 3;
+    padding-left: 9vw;
+}
+
+.raresection1-bottom-right-textwrapper-text1{
+    font-family: Antonio-Light ;
+    font-size: 1.7vw;
+    color: #bfb197;
+    margin-top: 1vh;
+    
+
+}
+.visibleNone {
+    visibility: hidden;
+}
+.rareRightlefttext1{
+    animation-name: rareRightToLefttext;
+    animation-duration: 0.8s;
+    animation-delay: 2.1s;
+    position: relative;
+} 
+@keyframes rareRightToLefttext {
+    from{
+        left: 510px;
+
+    }
+    to{
+        left:0px
+    }}
+    .rareRightlefttext2{
+        animation-name: rareRightToLefttext;
+        animation-duration: 0.8s;
+        animation-delay: 2.3s;
+        position: relative;
+    } 
+    @keyframes rareRightToLefttext {
+        from{
+            left: 510px;
+    
+        }
+        to{
+            left:0px
+        }
+    
+        
+    }
+    .rareRightlefttext3{
+        animation-name: rareRightToLefttext;
+        animation-duration: 0.8s;
+        animation-delay: 2.4s;
+        position: relative;
+    } 
+    @keyframes rareRightToLefttext {
+        from{
+            left: 510px;
+    
+        }
+        to{
+            left:0px
+        }
+    
+        
+    }
+    .rareRightlefttext4{
+        animation-name: rareRightToLefttext;
+        animation-duration: 0.8s;
+        animation-delay: 2.4s;
+        position: relative;
+    } 
+    @keyframes rareRightToLefttext {
+        from{
+            left: 510px;
+    
+        }
+        to{
+            left:0px
+        }
+    
+        
+    }
+.raresection1-bottom-right-textwrapper-text2{
+    font-family: Roboto-Regular ;
+    font-size: 1.3vw;
+    color: #bfb197;
+    margin-top: 1vh;
+}
+.raresection1-bottom-right-bg{
+    width: 95%;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+   
+}
+
+.raresection1-bottom-right-bg-img{
+    width: 100%;}
+
+
+
+.raresection1-bottom-right-bg1{
+    display: flex;
+    top: 0px;
+    right: 0px;
+    
+    width: 34%;
+    object-fit: cover;
+    position: absolute;
+   
+}
+.raresection1-bottom-right-bg1-img{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+/*float portion under exoticsection1*/
+.raresection1-float{
+width: 20%;
+display: flex;
+flex-direction: column;
+position: absolute;
+margin-left: 20vw;
+z-index: 4;
+
+}
+.raresection1-float-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+.raresection1-float-top-logo{
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.raresection1-float-top-logo-img{
+    width: 80%;
+}
+.raresection1-float-top-m-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7vh;
+    margin-top: 2vh;
+}
+.raresection1-float-top-m-text1{
+    font-family: Antonio-Light;
+    font-size: 1.3vw;
+    color: #ccb498;
+    text-transform: uppercase;
+}
+.raresection1-float-top-b-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.raresection1-float-middle{
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+.raresection1-float-middle-img{
+    width: 0.7%;
+}
+.raresection1-float-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.raresection1-float-bottom-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+.raretextopacityfloattext{
+    animation-name: exotictextOpacity;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+}
+@keyframes raretextOpacity{
+    2%   {
+       opacity: 0.9;
+    }
+    4%  {
+        opacity:0.8;
+    }
+    6%  {
+        opacity: 0.7;
+    }
+    8% {
+        opacity: 0.6;
+    }
+    10% {
+        opacity: 0.5;
+    }
+    12% {
+        opacity: 0.4;
+    }
+    14% {
+        opacity: 0.3;
+        
+    }
+    16% {
+        opacity: 0.2;
+        
+    }
+    18% {
+        opacity: 0.1;
+        
+    }
+    20% {
+        opacity: 0;
+    }
+    22% {
+        opacity: 0;
+        
+    }
+    24% {
+        opacity: 0;
+        
+    }
+    26%{
+        opacity: 0;
+    }
+    28%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    32%{
+        opacity: 0;
+    }
+    34%{
+        opacity: 0;
+    }
+    36%{
+        opacity: 0;
+    }
+    38%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    42%{
+        opacity: 0;
+    }
+    44%{
+        opacity: 0;
+    }
+    46%{
+        opacity: 0;
+    }
+    48%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    52%{
+        opacity: 0;
+    }
+    54%{
+        opacity: 0;
+    }
+    56%{
+        opacity: 0;
+    }
+    58%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    62%{
+        opacity: 0;
+    }
+    64%{
+        opacity: 0;
+    }
+    66%{
+        opacity: 0;
+    }
+    68%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    72%{
+        opacity: 0;
+    }
+    74%{
+        opacity: 0;
+    }
+    76%{
+        opacity: 0;
+    }
+    78%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    82%{
+        opacity: 0.1;
+    }
+    84%{
+        opacity: 0.2;
+    }
+    86%{
+        opacity: 0.3;
+    }
+    88%{
+        opacity: 0.4;
+    }
+    90%{
+        opacity: 0.5;
+    }
+    92%{
+        opacity: 0.6;
+    }
+    94%{
+        opacity: 0.7;
+    }
+    96%{
+        opacity: 0.8;
+    }
+    98%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.raresection1-float-bottom-bottom{
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+.raresection1-float-bottom-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.raresection1-float-bottom-top-text2{
+    color:#ccb498;
+    font-family: Rose-Velt-Personal-Use-Only ;
+    font-size: 2.5vw;
+}
+.raresection1-float-bottom-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.raresection1-float-bottom-bottom-img{
+    width: 80%;
+}
+/********************float section******************/
+@media screen and (max-width: 480px){
+    .raresection1-wrappers{
+       
+        display: none;
+        
+    }
+}

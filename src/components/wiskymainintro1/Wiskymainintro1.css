@@ -1,0 +1,141 @@
+.wiskymainintro1{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(234,229,225);
+    background: linear-gradient(180deg, rgba(234,229,225,1) 0%, rgba(241,236,233,0.5830707282913166) 13%, rgba(255,255,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.wiskymainintro1-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-top: 22vh;
+    margin-bottom: 100px;
+    
+    z-index: 2;
+}
+.wiskymainintro1-top-wrapper{
+    width: 80%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 10vh;
+   
+   
+    
+      
+}
+.wiskymainintro1-top-wrapper-left{
+
+    
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+   
+}
+.wiskymainintro1-top-w-l-items1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+.wiskymainintro1-top-w-l-items2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+    
+}
+.wiskymainintro1-top-w-l-items3{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wiskymainintro1-title{
+    display: flex;
+    
+    font-family: Rose-Velt-Personal-Use-Only;
+    font-size: 5vw;
+    color: black;
+}
+.wiskymainintro1-des{
+    font-family: CormorantGaramond-MediumItalic;
+    color: black;
+    font-size: 1.7vw;
+}
+
+.wiskymainintro1-btn{
+    background: linear-gradient(#f8f8f8, #fdfdfd) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+        linear-gradient(90deg, #7f5d26 0%, #ffd87f 47%, #d3a62a 80%, #7f5d26 100%);
+        letter-spacing: 10px;
+        padding: 16px 62px 16px 62px;
+        box-sizing: border-box;
+        font-family: Antonio-Light;
+        font-size: 1.9vw;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        margin-top: 10vh;
+        transition: 0.5s ease;
+
+}
+.wiskymainintro1-btn:hover{
+    color:#AF6C1C;
+}
+.wiskymainintro1-top-wrapper-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.wiskymainintro1-top-wrapper-right-image{
+    width: 100%;
+    object-fit: cover;
+}
+.wiskymainintro1-top-wrapper-right-image-img{
+    width: 70%;
+
+}
+.wiskymainintro1-image-cock{
+    top:42vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+.wiskymainintro1-image-cock-img{
+    width: 25%;
+}
+
+
+@media only screen and (max-width: 480px) {
+ 
+    .wiskymainintro1{
+        display: none;
+    }
+}

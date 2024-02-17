@@ -1,0 +1,190 @@
+.exoticmobileview3{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .exoticmobileview3{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #EAE5E1;
+    }  
+    .exoticmobileview3-section1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vh;
+        padding-bottom: 4vh;
+        
+    }
+    .exoticmobileview3-section1-text{
+        display: flex;
+       
+        font-family: Antonio-Light;
+        color: #382B2A;
+        font-size: 12vw;
+    }
+    .exoticmobileview3-section1-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.6vh;
+        margin-bottom: 0.7vh;
+        
+       
+
+    }
+    .exoticmobileview3-section1-div-line1{
+        display: flex;
+        object-fit: cover;
+        
+        align-items: center;
+        justify-content:flex-end;
+        
+        
+        
+    }
+    .exoticmobileview3-section1-div-line2{
+        display: flex;
+        object-fit: cover;
+        
+        
+        
+        
+    }
+    .exoticmobileview3-section1-div-imgline1{
+        display: flex;
+        width: 48%;
+        height: 100%;
+       
+    }
+    .exoticmobileview3-section1-div-imgline2{
+        display: flex;
+        width: 48%;
+        
+    }
+    .exoticmobileview3-section1-text2{
+        display: flex;
+       letter-spacing: 4px;
+        font-family: Antonio-Light;
+        color: #382B2A;
+        font-size: 5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        
+    }
+    .exoticmobileview3-section1-text3{
+        font-family: Rose-Velt-Personal-Use-Only;
+        color: #382B2A;
+        font-size: 6.5vw;
+    }
+    .exoticmobileview3-section2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .exoticmobileview3-section2-left{
+        width: 80%;
+        display: flex;
+        
+
+    }
+    .exoticmobileview3-section2-left-image1{
+        display: flex;
+        object-fit: cover;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .exoticmobileview3-section2-left-img1{
+        display: flex;
+        width: 74%;
+    }
+    .exoticmobileview3-section2-right{
+        width: 20%;
+        display: flex;
+        position: relative;
+        
+    }
+    .exoticmobileview3-section2-right-image1{
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        top: -18vh;
+        
+    }
+    .exoticmobileview3-section2-right-img1{
+        display: flex;
+        width: 100%;
+    }
+    .exoticmobileview3-section3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4vh;
+        padding-bottom: 3.8vh;
+    }
+    .exoticmobileview3-section3-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .exoticmobileview3-section3-top-text1{
+        font-family: Antonio-Light;
+        font-size: 5vw;
+        color: #382B2A;
+    }
+    .exoticmobileview3-section3-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1vh;
+    }
+    .exoticmobileview3-section3-bottom-text2{
+        display: flex;
+        font-family: CormorantGaramond-Italic;
+        color: #382B2A;
+        font-size: 3.5vw;
+        
+
+
+    }
+    .exoticmobileview3-section4{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        
+    }
+    .exoticmobileview3-section4-left{
+        display: flex;
+        object-fit: cover;
+        width: 35%;
+    }
+    .exoticmobileview3-section4-left-img{
+        display: flex;
+        width: 100%;
+    }
+    .exoticmobileview3-section4-right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+       position: absolute;
+       top: 0px;
+
+    }
+    .exoticmobileview3-section4-right-img{
+        display: flex;
+        width: 23%;
+        
+    }
+}   

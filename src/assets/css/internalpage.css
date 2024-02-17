@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'CormorantGaramond-Medium';
+    src: local("CormorantGaramond-Mediumt"),
+      url("../../font/CormorantGaramond-Medium.ttf") format("truetype");
+  }
+  .Privacy{
+ 
+  }
+.Privacy p{
+    font-family:CormorantGaramond-Medium ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Privacy h1{
+    font-family:CormorantGaramond-Medium ;
+    padding-left: 50px;
+}

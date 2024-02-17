@@ -1,0 +1,317 @@
+.raremobileview3{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .raremobileview3{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgb(234,229,225);
+background: linear-gradient(180deg, rgba(234,229,225,1) 0%, rgba(234,229,225,1) 87%, rgba(255,255,255,0.7287289915966386) 96%);
+        padding-bottom: 18vh;
+        position: relative;
+    }
+    .raremobileview3-bottomcock{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        bottom: 0px;
+        position: absolute;
+    }
+    .raremobileview3-bottomcock-img{
+        width: 50%;
+        display: flex;
+    }
+    .raremobileview3-designline{
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+    }
+    .raremobileview3-designline-img{
+        width: 100%;
+        display: flex;
+    }
+    .raremobileview3-section1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vh;
+        padding-bottom: 4vh;
+        
+    }
+    .raremobileview3-section1-text{
+        display: flex;
+       
+        font-family: Antonio-Light;
+        color: #382B2A;
+        font-size: 12vw;
+    }
+    .raremobileview3-section1-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.6vh;
+        margin-bottom: 0.7vh;
+        
+       
+
+    }
+    .raremobileview3-section1-div-line1{
+        display: flex;
+        object-fit: cover;
+        
+        align-items: center;
+        justify-content:flex-end;
+        
+        
+        
+    }
+    .raremobileview3-section1-div-line2{
+        display: flex;
+        object-fit: cover;
+        
+        
+        
+        
+    }
+    .raremobileview3-section1-div-imgline1{
+        display: flex;
+        width: 48%;
+        height: 100%;
+       
+    }
+    .raremobileview3-section1-div-imgline2{
+        display: flex;
+        width: 48%;
+        
+    }
+    .raremobileview3-section1-text2{
+        display: flex;
+       letter-spacing: 4px;
+        font-family: Antonio-Light;
+        color: #382B2A;
+        font-size: 5vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        
+    }
+    .raremobileview3-section1-text3{
+        font-family: Rose-Velt-Personal-Use-Only;
+        color: #382B2A;
+        font-size: 6.5vw;
+    }
+    .raremobileview3-section2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .raremobileview3-section2-left{
+        width: 80%;
+        display: flex;
+        
+
+    }
+    .raremobileview3-section2-left-image1{
+        display: flex;
+        object-fit: cover;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .raremobileview3-section2-left-img1{
+        display: flex;
+        width: 74%;
+    }
+    .raremobileview3-section2-right{
+        width: 20%;
+        display: flex;
+        position: relative;
+        
+    }
+    .raremobileview3-section2-right-image1{
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        top: -18vh;
+        
+    }
+    .raremobileview3-section2-right-img1{
+        display: flex;
+        width: 100%;
+    }
+    .raremobileview3-section3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4vh;
+        padding-bottom: 3.8vh;
+    }
+    .raremobileview3-section3-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .raremobileview3-section3-top-text1{
+        font-family: Antonio-Light;
+        font-size: 5vw;
+        color: #382B2A;
+    }
+    .raremobileview3-section3-bottom{
+        width: 63%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1vh;
+    }
+    .raremobileview3-section3-bottom-text2{
+        display: flex;
+        font-family: CormorantGaramond-Italic;
+        color: #382B2A;
+        font-size: 3.5vw;
+        
+
+
+    }
+    .raremobileview3-section4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        
+    }
+    .raremobileview3-section4-design{
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+    .raremobileview3-section4-design-img{
+        width: 34%;
+        display: flex;
+    }
+    .raremobileview3-section4-item1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .raremobileview3-section4-item1-img{
+        width: 25%;
+        display: flex;
+    }
+    .raremobileview3-section4-item2{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4vh;
+
+    }
+    .raremobileview3-section4-item2-left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    .raremobileview3-section4-item2-left-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        object-fit: cover;
+        z-index: 0;
+
+    }
+    .raremobileview3-section4-item2-left-image-img{
+        display: flex;
+        width: 73%;
+    }
+    .raremobileview3-section4-item2-left-text{
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 4vh;
+        
+    }
+    .raremobileview3-section4-left1{
+        width: 10%;
+    }
+    .raremobileview3-section4-right1{
+        width: 73%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        padding: 0%;
+    }
+    .raremobileview3-section4-item2-left-text-top{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    .raremobileview3-section4-item2-left-text1{
+        display: flex;
+        font-family: Antonio-Light;
+        font-size: 5vw;
+        color: #382B2A;
+    }
+    .raremobileview3-section4-item2-left-text-bottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1vh;
+    }
+    .raremobileview3-section4-item2-left-text-bottom-text2{
+        font-family: CormorantGaramond-Italic;
+        color: #382B2A;
+        font-size: 3.2vw;
+        display: flex;
+    }
+    .raremobileview3-section4-item2-right{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .raremobileview3-section4-item2-right-image{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        padding-top: 6vh;
+    }
+    .raremobileview3-section4-item2-right-img{
+        display: flex;
+        width: 100%;
+    }
+}

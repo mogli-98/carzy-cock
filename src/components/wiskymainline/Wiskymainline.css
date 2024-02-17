@@ -1,0 +1,21 @@
+.wiskymainline{
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.wiskymainline-img{
+    width: 100%;
+    height: 100%;
+}
+.wiskymainline-wrapper{
+    width: 100%;
+    background-color: #ebe6e2;
+    padding-top: 10vh;
+}
+@media only screen and (max-width: 480px) {
+ 
+    .wiskymainline-wrapper{
+        display: none;
+    }
+}

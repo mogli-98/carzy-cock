@@ -1,0 +1,289 @@
+.wiskymobileview2{
+    display: none;
+
+}
+@media only screen and (max-width: 480px) {
+    .wiskymobileview2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .wiskymobileview2-color{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgb(234,229,225);
+        background: linear-gradient(180deg, rgba(234,229,225,1) 0%, rgba(234,229,225,1) 5%, rgba(255,255,255,0.7287289915966386) 45%);
+       
+        z-index: -2;
+    }
+    .wiskymobileview2-section1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section1-top{
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .wiskymobileview2-section1-top-image{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .wiskymobileview2-section1-top-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .wiskymobileview2-section1-bottom{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .wiskymobileview2-section1-bottom-text1{
+        display: flex;
+        font-family: Rose-Velt-Personal-Use-Only;
+        font-size: 9vw;
+        color: black;
+    }
+    .wiskymobileview2-section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .wiskymobileview2-section2-cock{
+        display: flex;
+        object-fit: cover;
+        position: absolute;
+        top: 0px;
+        z-index: -1;
+    }
+    .wiskymobileview2-section2-cock-img{
+        width: 31%;
+        display: flex;
+    }
+    .wiskymobileview2-section2-logo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        object-fit: cover;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        
+    }
+    .wiskymobileview2-section2-logo-img{
+        width: 30%;
+        display: flex;
+        margin-right: 2vw;
+        
+    }
+    .wiskymobileview2-section2-item1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.7vw;
+    }
+    .wiskymobileview2-section2-item1-text1{
+        display: flex;
+        font-family: CormorantGaramond-MediumItalic;
+        font-size: 4vw;
+    }
+    .wiskymobileview2-section2-item2{
+        display: flex;
+        padding-top: 2.5vh;
+    }
+    .wiskymobileview2-section2-item2-btn{
+        background: linear-gradient(#f8f8f8, #fdfdfd) 50% 50%/calc(100% - 3.7px) calc(100% - 3.7px) no-repeat,
+        linear-gradient(90deg, #7f5d26 0%, #ffd87f 47%, #d3a62a 80%, #7f5d26 100%);
+        letter-spacing: 3px;
+        padding: 10px 63px 10px 63px;
+        box-sizing: border-box;
+        font-family: Antonio-Light;
+        font-size: 3.5vw;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        
+        transition: 0.5s ease;
+    }
+    .wiskymobileview2-section2-item3{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4vh;
+        
+        padding-bottom: 2vh;
+    }
+    .wiskymobileview2-section2-item3-line{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .wiskymobileview2-section2-item3-line-img{
+        display: flex;
+        width: 100%;
+        height: 1px;
+    }
+    .wiskymobileview2-section2-item4{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section2-item4-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .wiskymobileview2-section2-item4-top-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+    }
+    .wiskymobileview2-section2-item4-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 1vh;
+    }
+    .wiskymobileview2-section2-item4-bottom-text1{
+        display: flex;
+        font-family: Rose-Velt-Personal-Use-Only;
+        font-size: 9vw;
+        color: black;
+    }
+    .whiskymobileview2-section3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section3-item{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5vh;
+    }
+    .wiskymobileview2-section3-item-items1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section3-item1-items1-text1{
+        display: flex;
+        font-family: CormorantGaramond-MediumItalic;
+        font-size: 4vw;
+    }
+    .wiskymobileview2-section3-item-items2{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+    }
+    .wiskymobileview2-section4-cock{
+        width: 100%;
+        display: flex;
+        
+        object-fit: cover;
+        position: absolute;
+        bottom: 4vh;
+        left: 0px;
+        z-index: -1;
+    }
+    .wiskymobileview2-section4-cock-img{
+        
+        width: 31%;
+    }
+    .wiskymobileview2-section4-item1{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section4-item1-image{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+    }
+    .wiskymobileview2-section4-item1-img{
+        display: flex;
+        width: 55%;
+        align-items: center;
+        justify-content: center;
+    }
+    .wiskymobileview2-section4-item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .wiskymobileview2-section4-item2-items1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1vh;
+    }
+    .wiskymobileview2-section4-item2-items2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+    .wiskymobileview2-section4-item3{
+        display: flex;
+        padding-top: 2.5vh;
+    }
+}

@@ -1,0 +1,217 @@
+.smokymobileview4{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .smokymobileview4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3vh;
+        padding-bottom: 4vh;
+    }
+    .smokymobileview4-section1-text{
+        display: flex;
+        font-family:Rose-Velt-Personal-Use-Only ;
+        font-size: 14vw;
+        
+    }
+    .smokymobileview4-section4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section4-top{
+        width: 60%;
+        display: flex;
+        object-fit: cover;
+    }
+    .smokymobileview4-section4-top-image{
+        display: flex;
+        width: 100%;
+    }
+    .smokymobileview4-section4-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section4-bottom-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vw;
+        padding-bottom: 3vw;
+    }
+    .smokymobileview4-section4-bottom-top-text1{
+        display: flex;
+        font-family: Rose-Velt-Personal-Use-Only;
+        font-size: 10vw;
+    }
+    .smokymobileview4-section4-bottom-middle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .smokymobileview4-section4-bottom-middle-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section4-bottom-middle-text2{
+        display: flex;
+        font-family:CormorantGaramond-MediumItalic ;
+        font-size: 3.4vw;
+    }
+    .smokymobileview4-section4-bottom-middle-item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2.5vw;
+    }
+    .smokymobileview4-section4-bottom-down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2.5vh;
+    }
+    .smokymobileview4-section4-bottom-down-btn{
+        background: linear-gradient(#EAE5E1, #EAE5E1) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+        linear-gradient(90deg, #7f5d26 0%, #ffd87f 47%, #d3a62a 80%, #7f5d26 100%);
+        letter-spacing: 6px;
+        padding: 10px 70px 10px 70px;
+        box-sizing: border-box;
+        font-family: Antonio-Light;
+        font-size: 4.5vw;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        
+    }
+    .smokymobileview4-section3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section3-line{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        padding-top: 5vh;
+        padding-bottom:5vh;
+       
+    }
+    .smokymobileview4-section3-line-black{
+        width: 100%;
+        display: flex;
+        background-color: black;
+        padding-top: 1px;
+    }
+    .smokymobileview4-section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section2-top{
+        width: 60%;
+        display: flex;
+        object-fit: cover;
+    }
+    .smokymobileview4-section2-top-image{
+        display: flex;
+        width: 100%;
+    }
+    .smokymobileview4-section2-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section2-bottom-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vw;
+        padding-bottom: 3vw;
+    }
+    .smokymobileview4-section2-bottom-top-text1{
+        display: flex;
+        font-family: Rose-Velt-Personal-Use-Only;
+        font-size: 10vw;
+    }
+    .smokymobileview4-section2-bottom-middle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .smokymobileview4-section2-bottom-middle-item1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .smokymobileview4-section2-bottom-middle-text2{
+        display: flex;
+        font-family:CormorantGaramond-MediumItalic ;
+        font-size: 3.4vw;
+    }
+    .smokymobileview4-section2-bottom-middle-item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2.5vw;
+    }
+    .smokymobileview4-section2-bottom-down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2.5vh;
+    }
+    .smokymobileview4-section2-bottom-down-btn{
+        background: linear-gradient(#EAE5E1, #EAE5E1) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+        linear-gradient(90deg, #7f5d26 0%, #ffd87f 47%, #d3a62a 80%, #7f5d26 100%);
+        letter-spacing: 6px;
+        padding: 10px 70px 10px 70px;
+        box-sizing: border-box;
+        font-family: Antonio-Light;
+        font-size: 4.5vw;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        
+    }
+}

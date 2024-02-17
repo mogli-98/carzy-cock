@@ -1,0 +1,91 @@
+.smokymobileview1{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    .smokymobileview1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        padding-bottom: 1.5vh;
+    }
+    .smokymobileview1-section1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       } 
+       .smokymobileview1-logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0px;
+       }
+       .smokymobileview1-logo-img{
+        display: flex;
+        width: 37%;
+       }
+       .smokymobileview1-top{
+        width: 100%;
+        display: flex;
+        
+       }
+       .smokymobileview1-top-image{
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+       }
+       .smokymobileview1-top-img{
+        display: flex;
+        width: 100%;
+       }
+       .smokymobileview1-bottom{
+        width: 100%;
+        padding-top: 10vh;
+        background-color: black;
+       }
+       .smokymobileview1-section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+      
+       }
+       .smokymobileview1-section2-top{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4vh;
+       }
+       .smokymobileview1-section2-top-text{
+        display: flex;
+        font-family:Antonio-Light ;
+        color: #CAB497;
+        text-transform:uppercase;
+       }
+       .smokymobileview1-section2-top-text1{
+        display: flex;
+        font-family:Antonio-Light ;
+        color: #CAB497;
+        font-size: 2.8vw;
+       }
+       .smokymobileview1-section2-bottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1vh;
+       }
+      
+}

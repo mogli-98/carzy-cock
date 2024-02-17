@@ -1,0 +1,1005 @@
+@font-face {
+  font-family: 'Rose Velt';
+  src: local("Rose Velt"),
+    url("../../font/Rose\ Velt\ Personal\ Use\ Only.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'CormorantGaramond-Medium';
+  src: local("CormorantGaramond-Mediumt"),
+    url("../../font/CormorantGaramond-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Antiono-Light';
+  src: local("Antiono-Light"),
+    url("../../font/Antonio-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Antiono-Bold';
+  src: local("Antiono-Bold"),
+    url("../../font/Antonio-Bold.ttf") format("truetype");
+}
+
+.COCKTAILS-heading {
+  font-family: Rose Velt;
+  font-size: 11vw;
+  text-align: center !important;
+  padding-top: 12vh;
+  font-weight: 400;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+.cocktails-wingtop {
+  position: relative;
+  height: 20vh;
+  top: 90vh;
+  right: 0vh;
+  z-index: 10;
+  float: right;
+}
+
+.Recipe-heading {
+  font-family: Rose Velt;
+  font-size: 14vh;
+  text-align: center !important;
+  margin-top: 100px !important;
+  font-weight: 500;
+  width: 100%;
+  letter-spacing: 3px;
+  text-underline-offset: 18px;
+}
+
+.recipetale p {
+  font-family: Roboto-Light;
+  padding-left: 50px;
+  position: relative;
+  color: #C2B59B !important;
+  line-height: 30px;
+
+}
+
+.explore-top {
+  top: -86px;
+  position: relative;
+  height: 150px;
+
+  float: right;
+}
+
+.COCKTAILS-heading1 {
+  font-family: Antiono-Light;
+  color: #cb753a;
+  font-size: 80px;
+  text-align: center !important;
+  margin-top: 10px !important;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  text-decoration-thickness: from-font;
+}
+
+.recipe-top-logo {
+  float: right;
+  height: 190px;
+  top: -55pc;
+  right: 100px;
+  position: relative;
+}
+
+.recipe-img img {
+  width: 100%;
+  height: 100%;
+  border: 0.2px solid #fdd67d;
+  ;
+}
+
+.COCKTAILS {
+  background-image: url("../bgcocktailmain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+
+.COCKTAILS-img1 {
+
+  position: relative;
+  top: -30px;
+  max-width: 100%;
+}
+
+.linee {
+  position: relative;
+  width: 25%;
+  float: right;
+  top: -369px;
+}
+
+.recipe-middle-logo {
+  height: 251px;
+  position: relative;
+  top: 118px;
+  width: 50%;
+  bottom: 2px;
+  align-items: center;
+}
+
+.recipe-middle-text {
+  font-family: Antiono-Light;
+  position: relative;
+  top: 63px;
+  color: #C2B59B;
+}
+
+.recipe-middle {
+  height: 300px;
+  position: relative;
+  top: -148px;
+  bottom: 2px;
+}
+
+.section-04-text a {
+  text-decoration: none !important;
+  color: #111 !important;
+}
+
+.cocktail-content {
+  margin-bottom: 100px;
+  margin-top: 166px;
+  font-size: 30px;
+  font-family: Antonio-Light;
+  line-height: 60px;
+  color: #C2B59B;
+  text-align: center !important;
+  position: relative;
+}
+
+.line {
+  position: relative;
+  width: 32%;
+  float: right;
+  top: 15vh;
+  right: 0vh !important;
+}
+
+.cocktailss-logo {
+  position: relative;
+  /* width: 30%; */
+  left: 15%;
+  top: 10vh;
+  height: 29vh;
+  background-repeat: repeat;
+}
+
+/* .box-bg{
+background-image: url("../image/cocktails/section14.svg");
+background-repeat: no-repeat;
+background-size: cover;
+  
+z-index: 999;
+} */
+.next-bg {
+  background-image: url("../image/cocktails/section1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image-container {
+  position: relative;
+}
+
+.hover-text-RARE {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #53221d;
+  color: #fff;
+  font-size: 14px;
+  padding: 100px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-family: Rose Velt;
+}
+
+.hover-text-RARE-last {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #53221d;
+  color: #fff;
+  font-size: 14px;
+  padding: 130px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-family: Rose Velt;
+}
+
+.hover-text-SMOKY {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #4D4239;
+  color: #fff;
+  font-size: 14px;
+  padding: 100px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-family: Rose Velt;
+}
+
+.hover-text-SMOKY-last {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #4D4239;
+  color: #fff;
+  font-size: 14px;
+  padding: 120px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-family: Rose Velt;
+}
+
+.hover-text {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #153649;
+  color: #fff;
+  font-size: 14px;
+  padding: 120px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  font-family: Rose Velt;
+}
+
+.hover-text p {
+  font-size: 20px;
+}
+
+.hover-text-RARE p {
+  font-size: 20px;
+}
+
+.hover-text-RARE-last p {
+  font-size: 20px;
+}
+
+.hover-text-SMOKY p {
+  font-size: 20px;
+}
+
+.hover-text-SMOKY-last p {
+  font-size: 20px;
+}
+
+.hover-text h1 {
+  font-size: 40px;
+}
+
+.hover-text-RARE h1 {
+  font-size: 40px;
+}
+
+.hover-text-RARE-last h1 {
+  font-size: 40px;
+}
+
+.hover-text-SMOKY h1 {
+  font-size: 40px;
+}
+
+.hover-text-SMOKY-last h1 {
+  font-size: 40px;
+}
+
+.hover-text hr {
+  position: relative;
+  left: -40px;
+  width: 150%;
+  right: -40px;
+}
+
+.hover-text-RARE hr {
+  position: relative;
+  left: -40px;
+  width: 150%;
+  right: -40px;
+}
+
+.hover-text-RARE-last hr {
+  position: relative;
+  left: -40px;
+  width: 150%;
+  right: -40px;
+}
+
+.hover-text-SMOKY hr {
+  position: relative;
+  left: -40px;
+  width: 150%;
+  right: -40px;
+}
+
+.hover-text-SMOKY-last hr {
+  position: relative;
+  left: -40px;
+  width: 150%;
+  right: -40px;
+}
+
+.image-container:hover .hover-text {
+  opacity: 0.9;
+}
+
+.image-container:hover .hover-text-RARE {
+  opacity: 0.9;
+}
+
+.image-container:hover .hover-text-RARE-last {
+  opacity: 0.9;
+}
+
+.image-container:hover .hover-text-SMOKY {
+  opacity: 0.9;
+}
+
+.image-container:hover .hover-text-SMOKY-last {
+  opacity: 0.9;
+}
+
+.explore {
+  position: relative;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  color: #454647;
+  /* margin-left: 38vh !important; */
+  font-size: 55px;
+  font-weight: 400;
+  font-family: Antonio-Bold;
+  -webkit-text-stroke: 3px #C2B59B;
+}
+
+.section-1-tab {
+  background-image: url("../bgcocktailmain.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.section-1-tab h2 {
+  font-family: Rose Velt;
+  font-size: 17vw;
+  text-align: center !important;
+  position: relative;
+  top: 5vh;
+  bottom: 2vh;
+  font-weight: 600;
+  width: 100%;
+  letter-spacing: 3px;
+}
+
+.cocktails-img {
+  position: relative;
+  top: 5vh;
+}
+
+.cocktail-section-2content {
+  width: 70%;
+  position: relative;
+  top: 20vh;
+  color: #C2B59B;
+  font-family: Antiono-Light;
+  line-height: 35px;
+  font-size: 5vw;
+}
+
+.cocktail-section-2content2 {
+  width: 70%;
+  position: relative;
+  top: 23vh;
+  color: #C2B59B;
+  font-family: Antiono-Light;
+  line-height: 35px;
+  font-size: 5vw;
+}
+
+.cocktail-section-img {
+  position: relative;
+  top: 10vh;
+  left: 0vh;
+  height: 25vh;
+}
+.last-box-cocktails{
+  position: relative;
+  padding-top: 70px;
+}
+.outerbox1-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 62vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox2-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 62vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox3-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 62vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox4-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 63vh;
+    margin-bottom:2vh ;
+    position: relative;
+  } 
+  .outerbox5-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 63vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox6-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 63vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox7-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 62vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox8-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 62vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox9-cocktails{
+    border: 1px solid goldenrod;
+    width: 90%;
+    height: 62vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+  .outerbox10-cocktails{
+   
+   
+    height: 2vh;
+    margin-bottom:2vh ;
+    position: relative;
+  }
+.outerbox1 {
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 62vh;
+  margin-bottom:2vh ;
+}
+
+.cock-box1-img {
+  position: relative;
+  top:-7vh;
+  justify-content: center;
+  z-index: 500 !important;
+  display: flex ;
+  border: none;
+}
+
+.cock-box2-img {
+  position: relative;
+  top: -60vh;
+  left: -17vh;
+  height: 10.5vh;
+}
+
+.outerbox2 {
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 62vh;
+  position: relative;
+  top: 2vh;
+}
+
+.cock-box2-img2 {
+  top: -36vh !important;
+  position: relative;
+}
+
+.outerbox2 h4 {
+  position: relative;
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+  top: -3.2vh;
+}
+
+.outerbox2 h1 {
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+  top: -3vh;
+  font-size: 9vw;
+}
+
+.outerbox2 p {
+  position: relative;
+  font-family: Antiono-Light;
+  color: #fff;
+  top: -3.2vh;
+  letter-spacing: 0.5vw;
+}
+
+.box1-cockwing {
+  position: relative;
+  border: none !important;
+  opacity: 0.3;
+  float: right;
+  right: -2vh;
+  height: 30vh;
+  width: 13vh !important;
+  top: -10vh !important;
+  z-index: 500 !important;
+}
+.outerbox1-cocktails-img{
+  width: 85%;
+  border: 0.1vh solid white;
+  margin-top: -50vh;
+}
+.text-box-1{
+    /* position: relative; */
+    top: -32vh;
+    display: flow-root;
+    text-align: center;
+    font-family: Rose Velt;
+    color: #fff;
+    margin-top: -1vh;
+}
+.text-box-2{
+  position: relative;
+  top: -41vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-3{
+  position: relative;
+  top: 4vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-4{
+  position: relative;
+  top: -43vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-5{
+  position: relative;
+  top: -39vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-6{
+  position: relative;
+  top: -48vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-7{
+  position: relative;
+  top: -9vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-8{
+  position: relative;
+  top: 5vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.text-box-9{
+  position: relative;
+  top: -22vh;
+  display: flow-root;
+  text-align: center;
+  position: relative;
+  font-family: Rose Velt;
+  color: #fff;
+}
+.box2-cockwing {
+  position: relative;
+  top: 22.8vh !important;
+  height: 40vh;
+  float: right;
+  right: -2.5999999999999996vh;
+  opacity: 50%;
+}
+
+.cock-box2-text {
+  position: relative;
+  top: -37vh;
+}
+
+.outerbox3 {
+  border: 1px solid #daa520;
+  height: 63vh;
+  width: 90%;
+  top: 6vh;
+  position: relative;
+}
+
+.outerbox3-img1 {
+  position: relative;
+  top: -20vh !important;
+  width: 50%;
+  right: -13vh;
+}
+
+.outerbox3-img2 {
+  position: relative;
+  width: 85%;
+  top: 4vh !important;
+}
+
+.textbox3 {
+  position: relative;
+  top: 5vh;
+}
+
+.textbox3 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox3 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox3 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox4 {
+  position: relative;
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 61vh;
+  top: 10vh;
+}
+
+.outerbox4-img1 {
+  opacity: 0.5;
+  position: relative;
+  left: -12.5vh;
+  top: -50vh;
+}
+
+.outerbox4-img2 {
+  width: 85%;
+  position: relative;
+  top: 4vh;
+}
+
+.outerbox4-img3 {
+  position: relative;
+  top: -3vh;
+  height: 13vh;
+  right: -3vh;
+}
+
+.textbox4 {
+  position: relative;
+  top: -43vh;
+}
+
+.textbox4 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox4 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox4 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox5 {
+  position: relative;
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 60vh;
+  top: 14vh;
+
+}
+
+.outerbox5-img1 {
+  width: 85%;
+  position: relative;
+  top: 4vh;
+}
+
+.outerbox5-img2 {
+  width: 80%;
+  position: relative;
+  top: -30vh;
+  left: -8vh;
+}
+
+.outerbox5-img3 {
+  position: relative;
+  height: 40vh;
+  left: -14.5vh;
+  top: -18vh;
+}
+
+.textbox5 {
+  position: relative;
+  top: -39vh;
+}
+
+.textbox5 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox5 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox5 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox6 {
+  position: relative;
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 60vh;
+  top: 18vh;
+}
+
+.outerbox6-img1 {
+  opacity: 0.5;
+  
+  position: relative;
+  right: -6vh;
+  top: -10vh;
+}
+
+.outerbox6-img2 {
+  width: 85%;
+  position: relative;
+  top: -33vh;
+}
+
+.outerbox6-img3 {
+  position: relative;
+  width: 40%;
+  height: 20vh;
+  top: -25vh;
+  right: -15vh;
+}
+
+.textbox6 {
+  position: relative;
+  top: -48vh;
+}
+
+.textbox6 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox6 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox6 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox7 {
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 59vh;
+  position: relative;
+  top: 22vh;
+}
+
+.outerbox7-img1 {
+  width: 85%;
+  position: relative;
+  top: 3vh;
+}
+
+.outerbox7-img2 {
+  opacity: 0.5;
+  position: relative;
+  top: -6vh;
+  left: -15vh;
+  width: 40vw;
+}
+
+.textbox7 {
+  position: relative;
+  top: -10vh;
+}
+
+.textbox7 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox7 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox7 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox8 {
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 60vh;
+  position: relative;
+  top: 26vh;
+}
+
+.outerbox8-img1 {
+  width: 85%;
+  position: relative;
+  top: 3vh;
+}
+
+.outerbox8-img2 {
+  position: relative;
+  top: 6vh;
+  height: 3.5vh;
+  left: -18vh;
+}
+
+.textbox8 {
+  position: relative;
+  top: 5vh;
+}
+
+.textbox8 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox8 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox8 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox8-img3 {
+  height: 12vh;
+  position: relative;
+  right: -14vh;
+  top: -1vh;
+  z-index: 2;
+}
+
+.outerbox9 {
+  border: 1px solid goldenrod;
+  width: 90%;
+  height: 59vh;
+  position: relative;
+  top: 29vh;
+}
+
+.outerbox9-img1 {
+  width: 85%;
+  position: relative;
+  top: 3vh;
+}
+
+.outerbox9-img2 {
+  position: relative;
+  top: -18vh;
+  height: 30vh;
+  left: -16.5vh;
+}
+
+.textbox9 {
+  position: relative;
+  top: -22vh;
+}
+
+.textbox9 h4 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox9 h1 {
+  font-family: Rose Velt;
+  color: hsl(0, 0%, 100%);
+}
+
+.textbox9 p {
+  font-family: Antiono-Light;
+  color: #fff;
+}
+
+.outerbox9-img3 {
+  position: relative;
+  top: -28vh;
+  height: 4vh;
+  right: -15vh;
+
+}
+
+.outerbox10 {
+  height: 32vh;
+}
